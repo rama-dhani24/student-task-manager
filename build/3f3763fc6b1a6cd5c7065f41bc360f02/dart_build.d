@@ -1,1 +1,0 @@
- C:\\Users\\hacke\\Desktop\\student\ manager\\student_task_manager\\build\\3f3763fc6b1a6cd5c7065f41bc360f02\\dart_build_result.json: 
