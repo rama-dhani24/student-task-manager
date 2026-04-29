@@ -1,0 +1,47 @@
+name: student_task_manager
+description: A student task manager app with Swahili/English support and dark/light mode.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.1
+  intl: 0.20.2
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.0.1
+  animate_do: ^3.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  intl_utils: ^2.8.5
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+flutter_intl:
+  enabled: true
+  arb_dir: lib/l10n
